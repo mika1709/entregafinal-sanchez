@@ -12,9 +12,9 @@ git push --sube el cambio a la rama que estas
 
 --para crear una rama 
 git branch nueva-rama
-
+git branch -a : para ver las ramas
 --para cambiar entre ramas 
-git checkout nueva-rama
+git checkout :nueva-rama
 
 git config --global credential.username "mika1709"
 
