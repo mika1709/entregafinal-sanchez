@@ -9,17 +9,29 @@ git commit -m "el msj del commit"
 :wq para guardar el commit y salir de la consola 
 
 git push --sube el cambio a la rama que estas 
+--------------------------------------------------------
+--------------------------------------------------------
 
+--RAMAS
 --para crear una rama 
-git branch nueva-rama
+git branch nombredelarama
+-- me paro en la rama nueva 
+git checkout nombredelarama
+--hago cambios
+--pusheo los cambios
+-- y te salta la sugerencia de git push upstream.... 
+
 git branch -a : para ver las ramas
 --para cambiar entre ramas 
-git checkout :nueva-rama
 
+--para crear una rama y cambiarse de una (lo mismo, mas rapido)
+git checkout -b nombredelarama 
+
+--------------------------------------------------------
 git config --global credential.username "mika1709"
+--------------------------------------------------------
 
-
---mergear cambios
+--MERGE
 --1 me paro en la rama donde quiero poner los cambios
 git checkout main
 --2 
@@ -28,4 +40,7 @@ git merge ramanueva
 
 --para ver el historial 
 git log 
+git log --graph 
+
+
 
