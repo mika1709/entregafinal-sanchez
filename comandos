@@ -22,8 +22,10 @@ git config --global credential.username "mika1709"
 --mergear cambios
 --1 me paro en la rama donde quiero poner los cambios
 git checkout main
-
 --2 
 git merge ramanueva 
 
+
+--para ver el historial 
+git log 
 
