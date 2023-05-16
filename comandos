@@ -1,0 +1,16 @@
+git status --para ver lo que tnes
+
+--para subir los cambios a tu rama actual, main por default
+git add .  --eso lo agrega al stage 
+git commit -m "el msj del commit"
+git push --sube el cambio a la rama que estas 
+
+--para crear una rama 
+git branch nueva-rama
+
+--para cambiar entre ramas 
+git checkout nueva-rama
+
+
+
+
