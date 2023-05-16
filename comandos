@@ -3,6 +3,11 @@ git status --para ver lo que tnes
 --para subir los cambios a tu rama actual, main por default
 git add .  --eso lo agrega al stage 
 git commit -m "el msj del commit"
+
+--ojo si tiras git comit 
+:q para salir de la consola VIM 
+:wq para guardar el commit y salir de la consola 
+
 git push --sube el cambio a la rama que estas 
 
 --para crear una rama 
@@ -11,6 +16,7 @@ git branch nueva-rama
 --para cambiar entre ramas 
 git checkout nueva-rama
 
+git config --global credential.username "mika1709"
 
 
 
